@@ -1,35 +1,49 @@
 ---
-import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
-import Layout from '../layouts/BlogPost.astro';
+import AboutHeroImage from "../assets/blog-placeholder-about.jpg";
+import Layout from "../layouts/BlogPost.astro";
+import { GITHUB_URL, LINKEDIN_URL, EMAIL } from "../consts";
 ---
 
 <Layout
-	title="About Me"
-	description="Career changer moving from the restaurant industry into tech, teaching myself full-stack development."
-	pubDate={new Date('July 11 2026')}
-	heroImage={AboutHeroImage}
+  title="About Me"
+  description="Career changer moving from the restaurant industry into tech, teaching myself full-stack development."
+  pubDate={new Date("July 11 2026")}
+  heroImage={AboutHeroImage}
 >
-	<p>
-		Hey, I'm Moneer. I've spent years working in the restaurant industry, but my real interest has always been in how computers work and what you can actually build with code. I like understanding the logic behind things, and how small pieces come together into something that actually works.
-	</p>
+  <p>
+    Hey, I'm Moneer. I've spent years working in the restaurant industry, but my
+    real interest has always been in how computers work and what you can
+    actually build with code. I like understanding the logic behind things, and
+    how small pieces come together into something that actually works.
+  </p>
 
-	<p>
-		I studied computer science in school but didn't finish the degree back then. Recently I decided it was time to make a change and move into tech, so I've been teaching myself everything on my own.
-	</p>
+  <p>
+    I studied computer science in school but didn't finish the degree back then.
+    Recently I decided it was time to make a change and move into tech, so I've
+    been teaching myself everything on my own.
+  </p>
 
-	<p>
-		Working in a fast paced, customer facing industry for so long taught me how to think on my feet, juggle a lot at once, and stay calm under pressure. Those are skills that carry over well into solving technical problems too.
-	</p>
+  <p>
+    Working in a fast paced, customer facing industry for so long taught me how
+    to think on my feet, juggle a lot at once, and stay calm under pressure.
+    Those are skills that carry over well into solving technical problems too.
+  </p>
 
-	<p>
-		I put together my own learning plan focused on practical, real world skills instead of just theory. I've been working through it step by step, covering everything from how the internet works to full stack development and deployment. This site is actually a product of that process.
-	</p>
+  <p>
+    I put together my own learning plan focused on practical, real world skills
+    instead of just theory. I've been working through it step by step, covering
+    everything from how the internet works to full stack development and
+    deployment. This site is actually a product of that process.
+  </p>
 
-	<p>
-		My goal is simple. I want to turn this into an actual job as a software developer, where I can keep learning and building real things.
-	</p>
+  <p>
+    My goal is simple. I want to turn this into an actual job as a software
+    developer, where I can keep learning and building real things.
+  </p>
 
-	<p>
-		You can find my work on <a href="https://github.com/MKabedrabbo" target="_blank">GitHub</a>, connect with me on <a href="https://www.linkedin.com/in/moneer-abedrabbo-086293343/" target="_blank">LinkedIn</a>, or reach me directly at <a href="mailto:mabedrabb10@gmail.com">mabedrabb10@gmail.com</a>.
-	</p>
+  <p>
+    You can find my work on <a href={GITHUB_URL} target="_blank">GitHub</a>,
+    connect with me on <a href={LINKEDIN_URL} target="_blank">LinkedIn</a>, or
+    reach me directly at <a href={`mailto:${EMAIL}`}>{EMAIL}</a>.
+  </p>
 </Layout>
