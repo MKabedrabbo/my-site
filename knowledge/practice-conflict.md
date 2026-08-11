@@ -1,3 +1,3 @@
 # Merge Conflict Practice
 
-Favorite language: JavaScript
+Favorite language: Rust
