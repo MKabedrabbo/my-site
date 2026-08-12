@@ -1,8 +1,10 @@
 ---
 title: "HTTP Status Codes: The Ones You Actually Need to Know "
 description: "A quick walkthrough of the HTTP status codes that actually matter and what the 2xx/3xx/4xx/5xx ranges mean. Also why you'll run into 200, 404, 401, and 500 way more than the rest."
-pubDate: "August 12 2026"
+pubDate: "July 15 2026"
 ---
+
+## HTTP Status Codes: The Ones You Actually Need to Know
 
 404 NOT FOUND!
 

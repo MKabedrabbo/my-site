@@ -1,7 +1,7 @@
 ---
-title: "What Actually Happens When You Type a URL and Hit Enter"
+title: "DNS, TCP, and HTTP: What One Enter Key Triggers"
 description: "There's a lot of steps that take place when clicking enter on a URL that you never knew about."
-pubDate: "Aug 12 2026"
+pubDate: "July 25 2026"
 ---
 
 You ever wonder what's really happening after you type a URL and hit Enter? It seems instant, but a lot is going on behind the scenes before you see anything on the screen. There is something called DNS — Domain Name System — which works like a phone book for the internet. When you type 'google.com', you're actually looking up something closer to 192.0.0.88, but who's going to remember that? DNS lets us use names instead of numbers.

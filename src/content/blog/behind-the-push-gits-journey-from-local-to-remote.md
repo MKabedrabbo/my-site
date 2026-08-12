@@ -1,5 +1,5 @@
 ---
-title: "What Actually Happens When You Push to GitHub"
+title: "Behind the Push: Git's Journey from Local to Remote"
 description: "Committing and pushing feel similar but mean very different things. Here's the distinction that finally made Git click for me."
 pubDate: "Aug 12 2026"
 ---
