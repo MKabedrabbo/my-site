@@ -4,8 +4,6 @@ description: "A quick walkthrough of the HTTP status codes that actually matter 
 pubDate: "July 15 2026"
 ---
 
-## HTTP Status Codes: The Ones You Actually Need to Know
-
 404 NOT FOUND!
 
 The classic status code everyone has seen before. You click a link and get a big error staring back at you — but what does it actually mean? It means the server is up and running, it received your request just fine, but the specific page or resource you asked for doesn't exist. It's like walking into the right building but trying to go to a room that was never there.

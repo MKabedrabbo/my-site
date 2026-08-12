@@ -34,7 +34,7 @@ import {
         <a href={LINKEDIN_URL}>LinkedIn</a> ·
         <a href={`mailto:${EMAIL}`}>Email</a>
       </p>
-      <h2>Recent Posts</h2>
+      <h2 class="recent-posts-heading">Recent Posts</h2>
       <ul>
         {
           posts.map((post) => (
@@ -49,3 +49,10 @@ import {
     <Footer />
   </body>
 </html>
+
+<style>
+  .recent-posts-heading {
+    font-size: 1.5em;
+    margin-top: 4rem;
+  }
+</style>
