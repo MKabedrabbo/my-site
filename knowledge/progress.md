@@ -3,7 +3,7 @@
 Tracks progress against the Full Stack Engineering Learning Plan in Notion:
 https://app.notion.com/p/Full-Stack-Engineering-Learning-Plan-ebf9bc7b01a9827086428166e908d796?source=copy_link
 
-Last synced with Notion + repo state: 2026-08-11.
+Last synced with Notion + repo state: 2026-08-12.
 
 ## Current phase
 
@@ -23,18 +23,28 @@ Phase 0 (How the Web Works) is marked DONE in Notion.
 - Site is live on Vercel, custom domain (`moneerabedrabbo.com`) is registered (confirmed by user 2026-08-11)
 - `astro.config.mjs` `site` field updated from placeholder to `https://moneerabedrabbo.com` (2026-08-11)
 - PR #3 (home page rebuild, social constants sync, blog post cleanup) and PR #4 (domain fix) merged to `master`; Vercel auto-deployed and live sitemap confirmed serving `moneerabedrabbo.com` URLs (2026-08-11)
+- Git basics quiz passed (2026-08-11): explained staging area (`git add`) vs. commit, `git status` vs. `git diff`, and the commit-vs-push distinction (commit = permanent local snapshot, push = publishing it to the remote). Needed a nudge on "commit already being permanent, not just pending."
+- **Milestone 1 item — resolved a merge conflict without losing work (2026-08-12).** Practiced hands-on: created `practice/branch-a` (changed a line to "Python") and `practice/branch-b` (same line to "Rust") from a shared ancestor, merged branch A cleanly into `master`, then merged branch B to intentionally trigger a conflict. Resolved it in VS Code's merge UI (kept "Python"), staged with `git add`, completed with `git commit -m "..."`. Confirmed the merge commit has two parents via `git log --graph`. Practice branches (`practice/branch-a`, `practice/branch-b`) and file (`knowledge/practice-conflict.md`) were kept as a record rather than cleaned up — the practice commits are local-only on `master`, not yet pushed to `origin/master`.
+
+## Milestone 1 checklist (Phase 1)
+
+- [x] Site is live at custom domain
+- [x] Pushing to `main` automatically deploys a new version
+- [x] Can create a branch, make changes, open a PR, merge it, and see the deploy
+- [x] Can resolve a merge conflict without losing work (2026-08-12)
+- [ ] GitHub profile has a meaningful README
 
 ## In progress
 
-- None — `master` is caught up with the latest merged work.
+- None — `master` is caught up with the latest merged work (practice merge-conflict commits are local-only, not yet pushed).
 
 ## Not yet done (per Phase 1 checklist)
 
 - Basic GitHub Action for PR build checks — no `.github/workflows/` directory exists yet
 - GitHub profile README — can't verify from this repo
-- Merge conflict resolution — no evidence yet either way (may not have come up)
 - 2 more Phase 1 blog posts (have 1 of 3 chosen ideas written)
 
 ## Notes / recurring gaps
 
 - Cloudflare DNS is presumably managing the registered domain per CLAUDE.md deployment notes, but not yet verified directly.
+- Learned the difference between running commands via the `!` prefix in chat (visible to both) vs. a separate terminal window (not visible unless pasted) — was initially unclear on this.

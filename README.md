@@ -1,63 +1,46 @@
-# Astro Starter Kit: Blog
+# Moneer Abedrabbo
 
-```sh
-npm create astro@latest -- --template blog
-```
+Hey, I'm Moneer — a full-stack developer working mostly in TypeScript,
+React, and Node.js. I came into tech from a background in restaurants,
+so I care a lot about actually understanding how things work, not just
+getting them to run.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+[GitHub](https://github.com/MKabedrabbo) · [Site](https://www.moneerabedrabbo.com/) · moneerabedrabbo1@gmail.com
 
-Features:
+## What I'm building right now
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and Open Graph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+My personal site and blog, built with Astro and deployed on Vercel.
+Every pull request runs through GitHub Actions before it merges, so
+I'm treating this like a real project, not just a portfolio piece.
 
-## 🚀 Project Structure
+## Projects
 
-Inside of your Astro project, you'll see the following folders and files:
+**[Personal Site](https://moneerabedrabbo.com)** — Built with Astro,
+deployed on Vercel with a custom domain through Cloudflare, and CI
+checks running on every PR via GitHub Actions.
 
-```text
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+## Stack
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+**Languages & Frameworks** — TypeScript, React, Astro, Node.js/Express
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+**Data** — PostgreSQL, Firestore
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+**Tooling & Infra** — Docker, GitHub Actions, Vercel
 
-Any static assets, like images, can be placed in the `public/` directory.
+## What I know how to do
 
-## 🧞 Commands
+- **Git & GitHub** — comfortable branching, merging, working through
+  conflicts, and running CI pipelines with GitHub Actions
+- **Deployment** — shipping with Vercel's auto-deploys, plus setting up
+  custom domains and DNS through Cloudflare
+- **Web fundamentals** — HTTP methods, status codes, REST API design,
+  and debugging in the browser
+- **Astro** — building with content collections and Markdown/MDX
 
-All commands are run from the root of the project, from a terminal:
+## Blog
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+I'm writing about the process as I build — link coming soon.
 
-## 👀 Want to learn more?
+## Contact
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+moneerabedrabbo1@gmail.com
