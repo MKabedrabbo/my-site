@@ -1,6 +1,6 @@
 # Moneer Abedrabbo
 
-Hey, I'm Moneer — a full-stack developer working mostly in TypeScript,
+Hey, I'm Moneer! I'm full-stack developer working mostly in TypeScript,
 React, and Node.js. I came into tech from a background in restaurants,
 so I care a lot about actually understanding how things work, not just
 getting them to run.
@@ -43,4 +43,4 @@ I'm writing about the process as I build — link coming soon.
 
 ## Contact
 
-moneerabedrabbo1@gmail.com
+Moneerabedrabbo1@gmail.com
