@@ -61,13 +61,17 @@ Phase 0 (How the Web Works) is marked DONE in Notion.
 - Deployment: Vercel auto-deploy on push, custom domain + DNS via Cloudflare
 - Astro: content collections, Markdown-based blog posts, file-based routing
 
-## In progress
+## Blog posts (2026-08-12)
 
-- 3 Phase 1 blog posts (choose from 4 ideas): "What Actually Happens When You Push to GitHub," "Git for Absolute Beginners," "Setting Up CI/CD for a Static Site," "DNS Explained." None written yet — the existing "Why I am Learning to Code" post was the separate required intro post, not one of these.
+- **Phase 1 blog posts — done (3 of 4 ideas, skipped "Git for Absolute Beginners"):**
+  "What Actually Happens When You Push to GitHub," "Setting Up CI/CD for a Static Site," "DNS Explained." All three drafted, reviewed, and built successfully.
+- **Phase 0 blog posts — also done, written by the user directly (not drafted by Claude):**
+  "What Actually Happens When You Type a URL and Hit Enter" and "HTTP Status Codes: The Ones You Actually Need to Know." Both hit real save issues before landing (empty file, wrong `.mc` extension, stray leading blank line breaking frontmatter) — fixed and verified building.
+- 5 blog posts total now live in `src/content/blog/`, on top of the original "Why I am Learning to Code" intro post — 6 posts overall.
 
-## Not yet done (per Phase 1 checklist)
+## Not yet done
 
-- 3 Phase 1 blog posts (see above) — optional before moving to Phase 2, but the plan recommends finishing them first
+- Nothing outstanding for Phase 1 or Phase 0 blog requirements.
 
 ## Notes / recurring gaps
 
